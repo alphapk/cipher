@@ -53,7 +53,7 @@ if st.button('Generate a new sample Cipher Text'):
 st.dataframe(plain_text_df.iloc[random_cipher_df_index])
 
 st.write("Use this cipher text to test the application")
-st.text(plain_text_df.cipher_text[random_cipher_df_index])
+st.text(plain_text_df.cipherText[random_cipher_df_index])
 
 cipher_text = st.text_area( label = "Enter Encrypted Text to Decrypt")
             
